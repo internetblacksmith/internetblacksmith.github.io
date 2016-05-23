@@ -1,0 +1,132 @@
+#page-footer {
+  bottom: 0;
+  color: #FFFFFF;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+#page-header {
+  color: #FFFFFF;
+  height: 5%;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+#social .link span {
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: block;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+}
+
+#social .link {
+  -webkit-transition: .5s;
+  transition: .5s;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.2);
+  background-clip: content-box;
+  border-radius: 50%;
+  border: 2px dashed #FFFFFF;
+  color: #D7D0BE;
+  display: inline-block;
+  font-size: 70px;
+  height: 150px;
+  padding: 10px;
+  position: relative;
+  vertical-align: middle;
+  width: 150px;
+}
+
+#social .link.github {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+#social .link.github:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+#social .link.google-plus {
+  background-color: #D73D32;
+  color: #FFFFFF;
+}
+
+#social .link.google-plus:hover {
+  background-color: #FFFFFF;
+  color: #D73D32;
+}
+
+#social .link.linkedin {
+  background-color: #23639A;
+  color: #FFFFFF;
+}
+
+#social .link.linkedin:hover {
+  background-color: #FFFFFF;
+  color: #23639A;
+}
+
+#social .link.twitter {
+  background-color: #00ACEE;
+  color: #FFFFFF;
+}
+
+#social .link.twitter:hover {
+  background-color: #FFFFFF;
+  color: #00ACEE;
+}
+
+#social .link:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+#social {
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.element {
+  -webkit-transition: .5s;
+  transition: .5s;
+  display: inline-block;
+  text-align: center;
+  width: 150px;
+}
+
+body {
+  background: url(../img/bg_min.jpg) center center fixed no-repeat;
+  background-attachment: initial;
+  background-position: 0% 0%;
+  background-size: cover;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
